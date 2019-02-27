@@ -8,7 +8,7 @@ class Backer
 
   def back_project(project)
     @backed_projects << project
-    project.backers << self #uses the attr_accessor to manipulate the backers array and push the backer instance onto it
+    project.backers << backer 
   end
 
 
